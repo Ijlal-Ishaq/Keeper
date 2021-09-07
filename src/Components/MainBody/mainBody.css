@@ -1,0 +1,42 @@
+.mainbody{
+    padding: 19px;
+    padding-top: 5px;
+}
+
+.mainbody-heading{
+    color: #666;
+    padding-left: 303px;
+    margin: 0;
+    margin-bottom: 9px;
+    text-decoration: underline;
+    user-select: none;
+    margin-top: 9px;
+    
+}
+
+.no-notes{
+    text-decoration: none;
+    color: #6666;
+    margin-top: 30px;
+    font-size: 90px;
+}
+
+
+@media screen and (max-width: 666px) {
+
+    .mainbody{
+        padding: 9px;
+        width: fit-content;
+        text-align: center;
+        width: 95%;
+    }
+
+    .mainbody-heading{
+        padding: 0;
+    }
+
+    .no-notes{
+        font-size: 40px;
+    }
+
+}

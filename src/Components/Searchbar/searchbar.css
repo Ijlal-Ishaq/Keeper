@@ -1,0 +1,32 @@
+
+.searchbar-div{
+
+    height: fit-content;
+    padding: 19px;
+    flex-grow: 100;
+    display: flex;
+
+}
+.searchbar{
+
+    font-size: large;
+    border: solid 2px #6666;
+    padding: 13px;
+    border-radius: 7px;
+    color: #666;
+    height: fit-content;
+    flex-grow: 100;
+
+}
+
+.searchbar:focus{
+    outline: none;
+}
+
+@media screen and (max-width: 666px) {
+
+    .searchbar-div{
+        padding: 9px;
+    }
+
+}

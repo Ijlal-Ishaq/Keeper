@@ -1,0 +1,23 @@
+.add-fab{
+    height: 70px;
+    width: 70px;
+    background-color:#6666;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50px;
+    background-image: url('../../../Assets/write.png');
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 666px) {
+    .add-fab{
+        height: 50px;
+        width: 50px;
+        background-size: 30px;
+        right: 15px;
+        bottom: 15px;   
+    }
+}

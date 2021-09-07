@@ -1,0 +1,162 @@
+.add-note-div{
+    padding: 19px;
+    margin-left: 300px;
+}
+
+.addnote-heading{
+    color: #666;
+    margin: 0;
+    margin-bottom: 9px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 50px;
+    user-select: none;
+}
+
+.note-text{
+    padding: 9px;
+    font-size: medium;
+    border: solid 2px #6666;
+    border-radius: 7px;
+    min-width: 90%;
+    min-height: 100px;
+    font-family: 'Montserrat';
+    color: #666;
+    margin-bottom: 10px;
+
+    
+}
+
+.check-boxes-div{
+    padding: 9px;
+    padding-right: 50px;
+    font-size: medium;
+    border: solid 2px #6666;
+    border-radius: 7px;
+    width: 86% ;
+    min-height: fit-content;
+    font-family: 'Montserrat';
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.check-box-input-div{
+    padding: 5px;
+    color: #666;
+
+}
+
+.check-box-input-div label{
+    padding-left: 5px;
+}
+
+.note-text:focus{
+    outline: none;
+}
+
+.color-selection{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.color-option{
+    background-color: #666;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 11px;
+    border: solid 1px #6666;
+}
+
+.save-btn{
+    font-size: x-large;
+    background-color: #fff;
+    font-family: 'Montserrat';
+    border: solid 2px #6666;
+    padding: 9px 50px;
+    border-radius: 7px;
+    font-weight: 700;
+    color: #666;
+    margin: 13px 3px;
+    margin-top: 25px;
+
+}
+
+.save-btn:hover,:focus{
+    background-color: #6666;
+}
+
+.note-type-div{
+    text-align: left;
+}
+.note-type-option{
+    display: inline-block;
+    font-size: large;
+    color: #666;
+    padding: 9px 19px;
+    border:solid 2px #6666;
+    border-radius: 7px;
+    margin: 9px;
+    user-select: none;
+    
+}
+
+.heading{
+    text-decoration: none;
+    font-size: x-large;
+    color: #666;
+    text-align: left;
+    padding-left: 9px;
+}
+
+@media screen and (max-width: 666px) {
+
+    .add-note-div{
+        margin: 0;
+        padding: 9px;
+        width: 95%;
+    }
+
+    .addnote-heading{
+        padding: 0;
+        margin-top: 19px;
+        font-size: xx-large;
+        
+    }
+
+    
+
+    .save-btn{
+        font-size: large;
+        text-align: left;
+    }
+
+    .color-option{
+        height: 45px;
+        width: 45px;
+        justify-content: center;
+    }
+
+    .check-boxes-div{
+        width: 80% ;
+        margin-left: auto;
+        margin-right: auto ;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    
+    .note-text{
+        min-width: 90%;
+        
+    }
+
+    .color-option{
+        height: 30px;
+        width: 30px;
+    }
+}

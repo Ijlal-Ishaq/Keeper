@@ -1,0 +1,48 @@
+.note{
+    width: 270px;
+    height: fit-content;
+    border: solid 2px #6666;
+    padding: 13px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.notes-text{
+    margin: 0;
+    font-size: medium;
+    font-weight: 500;
+    text-align: left;
+    color: #666;
+}
+
+.notes-option-div{
+    margin-top: 19px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.notes-option{
+    height: 19px;
+    width: 19px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.notes-option:hover{
+    background-color: rgba(102, 102, 102, 0.123);
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .note{
+        width: 90%;
+        margin: 10px 0;
+    }
+
+}
